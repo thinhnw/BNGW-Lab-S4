@@ -12,13 +12,13 @@ h2 {
 	font-size: 1rem;
 }
 p {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 }
 header {
 	display: block;
-	width: 870px;
+	width: 875px;
 	height: 80px;
-	margin: 0 auto 20px;
+	margin: 10px auto 20px;
 	background: #fff;
 	box-sizing: border-box;
 	padding: 1% 20px;
@@ -28,19 +28,18 @@ header h1 {
 }
 
 #featured {
-	display: block;
 	margin: 0 auto;
+	display: grid;
+	width: 900px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 }
-.row {
-	display: block;
-	margin-bottom: 20px;
-	text-align: center;
-}
+
 .card{
 	width: 200px;
 	height: 400px;
-	display: inline-block;
-	margin: 0 10px 10px;
+	display: block;
+	margin: 0 auto 20px;
 }
 
 .thumbnail {
@@ -58,6 +57,9 @@ header h1 {
 	box-sizing: border-box;
 	padding: 20px 10px;
 }
+.product-body p {
+	margin: 15px auto;
+}
 .more-info {
 	width: 100%;
 	height: 50px;
@@ -71,7 +73,10 @@ header h1 {
 	align-items: center;
 	justify-content: center;
 }
-
+.more-info:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
 
 
 
