@@ -17,14 +17,15 @@ p {
 header {
 	display: block;
 	width: 875px;
-	height: 80px;
+	height: 60px;
 	margin: 10px auto 20px;
 	background: #fff;
 	box-sizing: border-box;
-	padding: 1% 20px;
 }
 header h1 {
 	text-align: left;
+	margin-left: 30px;
+	padding-top: 20px;
 }
 
 #featured {
